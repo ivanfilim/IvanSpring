@@ -9,6 +9,7 @@
            http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
+    <bean class="quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
 
     <bean class="quoters.PostProxyInvokerContextListener"/>
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
